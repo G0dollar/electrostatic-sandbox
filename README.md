@@ -58,8 +58,6 @@ go run .
 
 A 2D electrostatic particle simulator built in Go with [Ebiten](https://ebitengine.org/). Place charged particles on a canvas, watch them attract and repel each other under Coulomb's law, and visualize the electric field they generate in real time.
 
-![status](https://img.shields.io/badge/status-in--development-yellow)
-
 ## Features
 
 * **Coulomb-force physics** — every particle exerts an inverse-square force on every other particle, with softening to avoid singularities at close range
@@ -92,7 +90,7 @@ Inside the particle menu:
 
 * Click **Mass**, **Radius**, **Position X/Y**, or **Velocity X/Y** to type a value, then press `Enter` to apply it
 
-* Toggle **Fixed** to pin the particle in place\
+* Toggle **Fixed** to pin the particle in place
 
 * **ADD**/**SAVE** commits the particle; **REMOVE** deletes it (edit mode only); **CANCEL** discards changes
 
