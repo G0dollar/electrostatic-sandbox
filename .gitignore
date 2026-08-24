@@ -1,0 +1,22 @@
+# Build output
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Go build/test output
+*.test
+*.out
+
+# Coverage
+coverage.out
+coverage.html
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
