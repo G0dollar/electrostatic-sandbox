@@ -10,7 +10,7 @@ import (
 const (
 	K                 = 1000.0
 	dt                = 1.0 / 60.0
-	physicsStep       = 50
+	physicsStep       = 1
 	maxTrail          = 400
 	fieldSpacing      = 10
 	softening         = 1.0
